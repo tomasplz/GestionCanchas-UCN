@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="090e0ad7-4268-4fe7-b846-fbfb24ab1492" name="Changes" comment="Initialize frontend project with main app structure and components&#10;&#10;Set up a Vite React TypeScript project for &quot;Canchas UCENIN&quot; featuring key components such as Navbar, Hero, Features, and Footer. Added styling with TailwindCSS, implemented smooth scrolling, and included utility components like Button and Input. Configuration files and Git ignore settings were also established.">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GestionCanchas-UCN.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.idea/project-bolt-sb1-az2onqtc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fabrich21&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tomasplz/GestionCanchas-UCN.git&quot;,
+    &quot;accountId&quot;: &quot;9238b0c3-dd41-4685-8cc4-b40d7204ae9e&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vrcuYyqSJg9t25DvqLZ95WkyrN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/fabri/IdeaProjects/GestionCanchas-UCN/frontend/app/assets/imagenes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "ts.external.directory.path": "C:\\Users\\fabri\\IdeaProjects\\GestionCanchas-UCN\\frontend\\app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\app\assets\imagenes" />
+      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\app" />
+      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend" />
+      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN" />
+      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\app\assets\imagenes" />
+      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\app\public" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="090e0ad7-4268-4fe7-b846-fbfb24ab1492" name="Changes" comment="" />
+      <created>1744906857075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744906857075</updated>
+      <workItem from="1744906858960" duration="10460000" />
+      <workItem from="1744925318097" duration="916000" />
+      <workItem from="1744927296590" duration="156000" />
+      <workItem from="1744937145731" duration="27000" />
+      <workItem from="1745459761270" duration="3582000" />
+      <workItem from="1745463767575" duration="3659000" />
+      <workItem from="1745506094055" duration="9239000" />
+      <workItem from="1745515853627" duration="707000" />
+      <workItem from="1745517213067" duration="725000" />
+      <workItem from="1745545277357" duration="5807000" />
+      <workItem from="1745551509875" duration="912000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initialize frontend project with main app structure and components&#10;&#10;Set up a Vite React TypeScript project for &quot;Canchas UCENIN&quot; featuring key components such as Navbar, Hero, Features, and Footer. Added styling with TailwindCSS, implemented smooth scrolling, and included utility components like Button and Input. Configuration files and Git ignore settings were also established.">
+      <option name="closed" value="true" />
+      <created>1745551134230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745551134230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initialize frontend project with main app structure and components&#10;&#10;Set up a Vite React TypeScript project for &quot;Canchas UCENIN&quot; featuring key components such as Navbar, Hero, Features, and Footer. Added styling with TailwindCSS, implemented smooth scrolling, and included utility components like Button and Input. Configuration files and Git ignore settings were also established.">
+      <option name="closed" value="true" />
+      <created>1745551190792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745551190792</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove outdated readmes and add JetBrains IDE config files.&#10;&#10;Deleted unused readme files from the backend and frontend. Added `.idea` directory configuration files to set up JetBrains IDE project settings, including ignored files, module configurations, and version control mappings." />
+    <MESSAGE value="Initialize frontend project with main app structure and components&#10;&#10;Set up a Vite React TypeScript project for &quot;Canchas UCENIN&quot; featuring key components such as Navbar, Hero, Features, and Footer. Added styling with TailwindCSS, implemented smooth scrolling, and included utility components like Button and Input. Configuration files and Git ignore settings were also established." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize frontend project with main app structure and components&#10;&#10;Set up a Vite React TypeScript project for &quot;Canchas UCENIN&quot; featuring key components such as Navbar, Hero, Features, and Footer. Added styling with TailwindCSS, implemented smooth scrolling, and included utility components like Button and Input. Configuration files and Git ignore settings were also established." />
+  </component>
+</project>
