@@ -1,13 +1,26 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/jpeg" href="/assets/imagenes/Escudo-UCN-Logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Canchas UCENIN Website</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/jpeg" href="assets/imagenes/cropped_image.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Reserva de canchas de pádel en la Universidad Católica del Norte">
+  <meta name="keywords" content="pádel, canchas, reservas, UCENIN, deportes">
+
+  <!-- Precarga y carga de fuentes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Precarga de imagen principal -->
+  <link rel="preload" href="assets/imagenes/canchaPadel.jpeg" as="image" importance="high">
+
+  <title>Canchas UCENIN | Reserva de Canchas de Pádel</title>
+</head>
+
+<body class="font-sans antialiased text-gray-900 bg-white">
+<div id="root"></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
 </html>

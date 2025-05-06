@@ -4,19 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="090e0ad7-4268-4fe7-b846-fbfb24ab1492" name="Changes" comment="Initialize frontend project with main app structure and components&#10;&#10;Set up a Vite React TypeScript project for &quot;Canchas UCENIN&quot; featuring key components such as Navbar, Hero, Features, and Footer. Added styling with TailwindCSS, implemented smooth scrolling, and included utility components like Button and Input. Configuration files and Git ignore settings were also established.">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GestionCanchas-UCN.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.idea/project-bolt-sb1-az2onqtc.iml" beforeDir="false" />
+    <list default="true" id="090e0ad7-4268-4fe7-b846-fbfb24ab1492" name="Changes" comment="Add JetBrains IDE config files and project initialization&#10;&#10;Added `.idea` configuration to facilitate JetBrains IDE setup, including project settings, modules management, and VCS mappings. Initialized the frontend project structure with Vite React TypeScript, including core components, TailwindCSS styling, and smooth scrolling features.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/assets/imagenes/Escudo-UCN-Logos-1024x1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/assets/imagenes/equipamiento.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/components/Equipment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/src/components/Equipment.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/components/FeatureCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/src/components/FeatureCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/components/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/src/components/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/components/auth/LoginForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/components/ui/button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/components/ui/input.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/components/ui/label.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/lib/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/src/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +50,7 @@
   &quot;isMigrated&quot;: true
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -53,37 +60,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/fabri/IdeaProjects/GestionCanchas-UCN/frontend/app/assets/imagenes",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
-    "ts.external.directory.path": "C:\\Users\\fabri\\IdeaProjects\\GestionCanchas-UCN\\frontend\\app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/fabri/IdeaProjects/GestionCanchas-UCN/frontend/app/assets/imagenes&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\fabri\\IdeaProjects\\GestionCanchas-UCN\\frontend\\app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\app\assets\imagenes" />
       <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\app\assets\imagenes" />
+      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN" />
+      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\app\.idea" />
       <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\app" />
       <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend" />
-      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN" />
-      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\app\assets\imagenes" />
-      <recent name="C:\Users\fabri\IdeaProjects\GestionCanchas-UCN\frontend\app\public" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -112,6 +119,10 @@
       <workItem from="1745517213067" duration="725000" />
       <workItem from="1745545277357" duration="5807000" />
       <workItem from="1745551509875" duration="912000" />
+      <workItem from="1745553262738" duration="242000" />
+      <workItem from="1745600819424" duration="2526000" />
+      <workItem from="1745685101320" duration="623000" />
+      <workItem from="1746468149371" duration="27631000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize frontend project with main app structure and components&#10;&#10;Set up a Vite React TypeScript project for &quot;Canchas UCENIN&quot; featuring key components such as Navbar, Hero, Features, and Footer. Added styling with TailwindCSS, implemented smooth scrolling, and included utility components like Button and Input. Configuration files and Git ignore settings were also established.">
       <option name="closed" value="true" />
@@ -129,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745551190792</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Remove IDE-specific files and update favicon link in index.html&#10;&#10;Deleted various .idea configuration files and directories for a cleaner repo, as these are IDE-specific and unnecessary for version control. Also, updated the favicon link in the frontend's index.html to use a new JPEG image instead of the previous SVG.">
+      <option name="closed" value="true" />
+      <created>1745553331952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745553331952</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add JetBrains IDE config files and project initialization&#10;&#10;Added `.idea` configuration to facilitate JetBrains IDE setup, including project settings, modules management, and VCS mappings. Initialized the frontend project structure with Vite React TypeScript, including core components, TailwindCSS styling, and smooth scrolling features.">
+      <option name="closed" value="true" />
+      <created>1745553372116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745553372116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +165,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove outdated readmes and add JetBrains IDE config files.&#10;&#10;Deleted unused readme files from the backend and frontend. Added `.idea` directory configuration files to set up JetBrains IDE project settings, including ignored files, module configurations, and version control mappings." />
     <MESSAGE value="Initialize frontend project with main app structure and components&#10;&#10;Set up a Vite React TypeScript project for &quot;Canchas UCENIN&quot; featuring key components such as Navbar, Hero, Features, and Footer. Added styling with TailwindCSS, implemented smooth scrolling, and included utility components like Button and Input. Configuration files and Git ignore settings were also established." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize frontend project with main app structure and components&#10;&#10;Set up a Vite React TypeScript project for &quot;Canchas UCENIN&quot; featuring key components such as Navbar, Hero, Features, and Footer. Added styling with TailwindCSS, implemented smooth scrolling, and included utility components like Button and Input. Configuration files and Git ignore settings were also established." />
+    <MESSAGE value="Remove IDE-specific files and update favicon link in index.html&#10;&#10;Deleted various .idea configuration files and directories for a cleaner repo, as these are IDE-specific and unnecessary for version control. Also, updated the favicon link in the frontend's index.html to use a new JPEG image instead of the previous SVG." />
+    <MESSAGE value="Add JetBrains IDE config files and project initialization&#10;&#10;Added `.idea` configuration to facilitate JetBrains IDE setup, including project settings, modules management, and VCS mappings. Initialized the frontend project structure with Vite React TypeScript, including core components, TailwindCSS styling, and smooth scrolling features." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JetBrains IDE config files and project initialization&#10;&#10;Added `.idea` configuration to facilitate JetBrains IDE setup, including project settings, modules management, and VCS mappings. Initialized the frontend project structure with Vite React TypeScript, including core components, TailwindCSS styling, and smooth scrolling features." />
   </component>
 </project>

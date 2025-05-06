@@ -1,12 +1,13 @@
 import React from 'react';
 import { Calendar } from 'lucide-react';
+import {Link} from "react-router-dom";
 
 const Hero: React.FC = () => {
   return (
     <section id="inicio" className="w-full h-screen pt-20 relative">
       <div className="absolute inset-0 bg-cover bg-center">
         <img
-        src="assets/imagenes/canchaPadel.jpeg"
+        src="assets/imagenes/cancha.webp"
         alt="cancha de padel"
         className="w-full h-full object-cover"
         />
@@ -24,10 +25,10 @@ const Hero: React.FC = () => {
           que quieras y al mejor precio.
         </p>
         
-        <button className="flex items-center space-x-2 bg-white hover:bg-gray-100 text-[#0A1838] px-6 py-3 rounded-full text-lg font-medium transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
+        <Link to="/reservar" className="flex items-center space-x-2 bg-white hover:bg-gray-100 text-[#0A1838] px-6 py-3 rounded-full text-lg font-medium transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1">
           <Calendar size={20} />
           <span>Reserva tu cancha aquí</span>
-        </button>
+        </Link>
       </div>
     </section>
   );

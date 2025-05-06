@@ -5,7 +5,7 @@ const Equipment: React.FC = () => {
     <section id="equipamiento" className="w-full relative py-16">
       <div className="absolute inset-0 bg-cover bg-center" >
           <img
-              src="assets/imagenes/equipamiento.jpeg"
+              src="assets/imagenes/equipamiento.webp"
               alt="cancha de padel"
               className="w-full h-full object-cover"
           />

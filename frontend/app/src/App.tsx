@@ -1,50 +1,22 @@
-import { useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import Equipment from './components/Equipment';
-import Location from './components/Location';
-import Footer from './components/Footer';
+import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import AuthPage from './pages/AuthPage';
+import ReservationPage from './pages/ReservationPage';
 
 function App() {
-  useEffect(() => {
-    // Update document title
-    document.title = "Canchas UCENIN - Reserva de Canchas de Padel";
-    
-    // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(this: HTMLAnchorElement, e: Event) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        if (targetId) {
-          const targetElement = document.querySelector(targetId);
-          if (targetElement) {
-            targetElement.scrollIntoView({
-              behavior: 'smooth',
-              block: 'start'
-            });
-          }
-        }
-      });
-    });
-    
-    return () => {
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.removeEventListener('click', () => {});
-      });
-    };
-  }, []);
+    return (
+        <BrowserRouter>
+            <div className="app-container min-h-screen flex flex-col">
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/auth" element={<AuthPage />} />
+                    <Route path="/reservar" element={<ReservationPage />} />
 
-  return (
-    <div className="min-h-screen font-sans">
-      <Navbar />
-      <Hero />
-      <Features />
-      <Equipment />
-      <Location />
-      <Footer />
-    </div>
-  );
+                </Routes>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;
