@@ -14,8 +14,7 @@ export class UsersService {
   ) {}
 
   async create(createUserDto: CreateUserDto) {
-    const user = this.userRepository.create(createUserDto);
-    return await this.userRepository.save(user); //guardar el usuario en la base de datos
+    return await this.userRepository.save(createUserDto); //guardar el usuario en la base de datos
   }
 
   async findAll() {
