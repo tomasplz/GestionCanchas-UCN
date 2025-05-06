@@ -1,0 +1,11 @@
+node_modules
+dist
+test
+Dockerfile
+docker-compose.yml
+pnpm-lock.yaml
+.eslintrc
+.eslintrc.js
+.eslintrc.json
+.git
+.gitignore
