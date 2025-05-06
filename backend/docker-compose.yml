@@ -1,37 +1,34 @@
-version: '3.8'
-
 services:
   backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    container_name: gestion-backend
-    restart: always
+    build: .
+    container_name: nest_backend
     ports:
       - "3000:3000"
-    volumes:
-      - ./backend:/app
     depends_on:
-      - db
+      - postgres
     environment:
-      DB_HOST: db
+      DB_HOST: postgres
       DB_PORT: 5432
       DB_USERNAME: postgres
       DB_PASSWORD: postgres
-      DB_NAME: gestioncanchas
+      DB_NAME: dbingeso
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: pnpm run start:dev  # usa start:dev si tienes hot reload configurado
 
-  db:
+  postgres:
     image: postgres:15
-    container_name: gestion-db
+    container_name: postgres_db
     restart: always
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: gestioncanchas
+      POSTGRES_DB: dbingeso
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
 
 volumes:
-  pgdata:
+  postgres_data:
