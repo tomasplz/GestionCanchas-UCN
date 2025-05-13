@@ -1,5 +1,3 @@
-import { PartialType } from '@nestjs/mapped-types';
-import { CreateUserDto } from './create-user.dto';
 import { IsEnum, IsOptional, IsString, MinLength } from 'class-validator';
 import { UserRole } from '../entities/user-role.enum';
 
@@ -18,6 +16,5 @@ export class UpdateUserDto {
     password?: string; // Contraseña del usuario
     
     @IsEnum(UserRole)
-    @IsOptional()
-    role?: UserRole;
+    role: UserRole;
 }

@@ -4,31 +4,32 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 
 @Controller('users')
-export class UsersController {
-  constructor(private readonly usersService: UsersService) {}
+export class UsersController {// Este controlador maneja las rutas relacionadas con los usuarios
+  constructor(private readonly usersService: UsersService) {}//inicializa el servicio de usuarios
 
-  @Post()
-  create(@Body() createUserDto: CreateUserDto) {
-    return this.usersService.create(createUserDto);
+  @Post()// Crear un nuevo usuario
+  // @UseGuards(JwtAuthGuard) // Proteger la ruta con el guardia de autenticación JWT
+  create(@Body() createUserDto: CreateUserDto) {// Recibe el DTO de creación de usuario desde el cuerpo de la solicitud
+    return this.usersService.create(createUserDto);// Llama al servicio de usuarios para crear un nuevo usuario
   }
 
-  @Get()
-  findAll() {
-    return this.usersService.findAll();
+  @Get()// Obtener todos los usuarios
+  findAll() {// Llama al servicio de usuarios para obtener todos los usuarios
+    return this.usersService.findAll();// Devuelve la lista de usuarios
   }
 
-  @Get(':id')
-  findOne(@Param('id') id: number) {
-    return this.usersService.findOne(id);
+  @Get(':id')// Obtener un usuario por ID
+  findOne(@Param('id') id: number) {// Recibe el ID del usuario desde los parámetros de la solicitud
+    return this.usersService.findOne(id);// Llama al servicio de usuarios para obtener el usuario por ID
   }
 
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
-    return this.usersService.update(+id, updateUserDto);
+  @Patch(':id')// Actualizar un usuario por ID
+  update(@Param('id') id: number, @Body() updateUserDto: UpdateUserDto) {// Recibe el ID del usuario y el DTO de actualización desde la solicitud
+    return this.usersService.update(id, updateUserDto);// Llama al servicio de usuarios para actualizar el usuario
   }
 
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.usersService.remove(+id);
+  @Delete(':id')// Eliminar un usuario por ID
+  remove(@Param('id') id: number) {// Recibe el ID del usuario desde los parámetros de la solicitud
+    return this.usersService.remove(id);// Llama al servicio de usuarios para eliminar el usuario
   }
 }

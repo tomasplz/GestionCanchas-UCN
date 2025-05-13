@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { login , register} from '../service/authService';
+import { useNavigate } from 'react-router-dom';
 
 interface LoginFormProps {
     onSwitchToRegister?: () => void;
@@ -8,10 +10,17 @@ const LoginForm: React.FC<LoginFormProps> = ({ onSwitchToRegister }) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault();
-        console.log('Login submitted:', { email, password });
-    };
+   const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    try {
+        const res = await login(email, password);
+        localStorage.setItem('token', res.access_token);
+        alert('Inicio de sesión exitoso');
+    // Aquí podrías redirigir con useNavigate si quieres
+    } catch (err: any) {
+        alert(err.message);
+    }
+};
 
     return (
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -83,10 +92,23 @@ const RegisterForm: React.FC = () => {
         setFormData(prev => ({ ...prev, [name]: value }));
     };
 
-    const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault();
-        // Handle registration logic here
-        console.log('Registration submitted:', formData);
+    const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (formData.password !== formData.confirmPassword) {
+    alert('Las contraseñas no coinciden');
+    return;
+  }
+
+        try {
+    const fullName = `${formData.firstName} ${formData.lastName}`;
+    const res = await register(fullName, formData.email, formData.password);
+    localStorage.setItem('token', res.access_token);
+    alert('Registro exitoso');
+    // Aquí también puedes redirigir si quieres
+        } catch (err: any) {
+        alert(err.message);
+        }
     };
 
     return (

@@ -1,21 +1,23 @@
 import { Module } from '@nestjs/common';
-import { UsersModule } from './users/users.module';
+import { ConfigModule } from '@nestjs/config'; // ✅ importar
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { UsersModule } from './users/users.module';
 import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
-    UsersModule,
+    ConfigModule.forRoot({ isGlobal: true }), // ✅ cargar .env automáticamente
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      port: 5433,
-      username: 'postgres',
-      password: 'postgres',
-      database: 'dbingeso',
+      host: process.env.DB_HOST || 'localhost',
+      port: parseInt(process.env.DB_PORT || '5433'),
+      username: process.env.DB_USER || 'postgres',
+      password: process.env.DB_PASSWORD || 'postgres',
+      database: process.env.DB_NAME || 'dbingeso',
       autoLoadEntities: true,
       synchronize: true,
     }),
+    UsersModule,
     AuthModule,
   ],
   controllers: [],
